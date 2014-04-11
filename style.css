@@ -1,0 +1,38 @@
+div {
+  -webkit-transition: .5s all ease; }
+
+.container {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: justify-left;
+  -webkit-flex-wrap: wrap;
+  border: solid 1px red; }
+
+.nav {
+  border: 1px solid red;
+  width: 25%; }
+
+.nav ul {
+  list-style-type: none; }
+
+.nav li {
+  display: inline-block; }
+
+.nav img {
+  display: block;
+  width: 200px; }
+
+.container2 {
+  display: none;
+  border: 1px solid green;
+  width: 70%; }
+  .container2 img {
+    width: 400px;
+    box-shadow: 5px 5px 25px #222; }
+  .container2 ul {
+    list-style-type: none; }
+
+.show {
+  -webkit-transition: .5s all ease;
+  display: inline; }
